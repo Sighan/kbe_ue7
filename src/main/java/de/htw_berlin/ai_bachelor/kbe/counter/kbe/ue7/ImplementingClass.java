@@ -5,6 +5,7 @@
  */
 package de.htw_berlin.ai_bachelor.kbe.counter.kbe.ue7;
 
+import java.io.Serializable;
 import java.util.Collection;
 import java.util.Date;
 import java.util.Iterator;
@@ -15,13 +16,13 @@ import java.util.ListIterator;
  *
  * @author dan
  */
-@CreationInfo(author = "Dan The Man", 
+@CreationInfo(author = "S0539748, s?????", 
         description = "Diese Klasse ist Sinnvoll",
         tags={"Sinvoll","Klasse"},
         baseClass = Date.class,
         interfaces = {List.class,Iterator.class}
 )       
-public class ImplementingClass extends Date implements List, Iterator  {
+public class ImplementingClass extends Date implements List, Serializable  {
     
     public ImplementingClass() {
         
@@ -142,14 +143,6 @@ public class ImplementingClass extends Date implements List, Iterator  {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
-    public boolean hasNext() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public Object next() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    
     
 }
