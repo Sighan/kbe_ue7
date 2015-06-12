@@ -16,7 +16,7 @@ import java.util.ListIterator;
  *
  * @author dan
  */
-@CreationInfo(author = "S0539748, s?????", 
+@CreationInfo(author = "S0539748, S0542531", 
         description = "Diese Klasse ist Sinnvoll",
         tags={"Sinvoll","Klasse"},
         baseClass = Date.class,
